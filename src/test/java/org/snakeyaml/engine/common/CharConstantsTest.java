@@ -26,6 +26,9 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInfo;
 
+import static org.junit.jupiter.api.Assertions.*;
+import static org.snakeyaml.engine.common.CharConstants.ESCAPE_REPLACEMENTS;
+
 @Tag("fast")
 class CharConstantsTest {
 
